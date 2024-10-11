@@ -43,7 +43,7 @@
 #--------------------------------------------------------------------------
 
 # Input bindings are passed in via param block.
-param($Timer)
+param($myTimer)
 
 Write-Output -InputObject "HA NVA timer trigger function executed at: $(Get-Date)"
 
